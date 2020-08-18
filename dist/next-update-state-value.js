@@ -2,8 +2,8 @@
  * name: @feizheng/next-update-state-value
  * description: Update state value for react.
  * homepage: https://github.com/afeiship/next-update-state-value
- * version: 1.0.0
- * date: 2020-08-18T14:25:36.360Z
+ * version: 1.0.1
+ * date: 2020-08-18T14:30:35.892Z
  * license: MIT
  */
 
@@ -22,6 +22,7 @@
         options.callback.call(inContext, inName, value, inOptions);
       });
     }
+    return true;
   };
 
   if (typeof module !== 'undefined' && module.exports) {

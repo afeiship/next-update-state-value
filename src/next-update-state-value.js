@@ -13,6 +13,7 @@
         options.callback.call(inContext, inName, value, inOptions);
       });
     }
+    return true;
   };
 
   if (typeof module !== 'undefined' && module.exports) {
