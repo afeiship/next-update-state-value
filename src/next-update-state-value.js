@@ -10,7 +10,7 @@
       var state = {};
       state[inName] = value;
       inContext.setState(state, function () {
-        options.callback.call(inContext, inName, value);
+        options.callback.call(inContext, inName, value, inOptions);
       });
     }
   };

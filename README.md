@@ -18,7 +18,7 @@ import '@feizheng/next-update-state-value';
 class ReactList extends React.Component{
   //...
   shouldComponentUpdate(inProps){
-    nx.updateStateValue(this, 'value', inProps, /* callback is optional */);
+    nx.updateStateValue(this, 'value', { props: inProps });
     return true;
   }
   //...
