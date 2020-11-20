@@ -1,6 +1,6 @@
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var DEFAULT_OPTIONS = { state: null, props: null, callback: nx.noop };
 
   nx.updateStateValue = function (inContext, inName, inOptions) {
@@ -15,6 +15,7 @@
     }
     return true;
   };
+
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = nx.updateStateValue;

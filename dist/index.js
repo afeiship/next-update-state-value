@@ -1,15 +1,15 @@
 /*!
- * name: @feizheng/next-update-state-value
+ * name: @jswork/next-update-state-value
  * description: Update state value for react.
  * homepage: https://github.com/afeiship/next-update-state-value
- * version: 1.0.1
- * date: 2020-08-18T14:30:35.892Z
+ * version: 1.0.0
+ * date: 2020-11-20 14:02:41
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var DEFAULT_OPTIONS = { state: null, props: null, callback: nx.noop };
 
   nx.updateStateValue = function (inContext, inName, inOptions) {
@@ -24,6 +24,7 @@
     }
     return true;
   };
+
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = nx.updateStateValue;
