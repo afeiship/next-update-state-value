@@ -3,7 +3,7 @@
  * description: Update state value for react.
  * homepage: https://github.com/afeiship/next-update-state-value
  * version: 1.0.0
- * date: 2020-11-20 14:02:41
+ * date: 2020-11-20 14:07:01
  * license: MIT
  */
 
